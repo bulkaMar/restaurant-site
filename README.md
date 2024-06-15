@@ -1,3 +1,7 @@
+Reference to template of restaurant site: https://5axq1.weblium.site/
+
+
+
 # HTML Template Repository with HTML Proofer
 
 This template repository includes preconfigured GitHub Action that will validate html files in a project with (HTMLProofer)[https://github.com/gjtorikian/html-proofer/].
@@ -21,3 +25,4 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
     if (loadedPartialsCount === totalPartials) init();
 });
 ```
+
