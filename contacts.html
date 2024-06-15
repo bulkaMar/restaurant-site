@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurants</title>
+    <title>Document</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
@@ -13,7 +13,7 @@
     ></script>
   </head>
   <body>
-    <header class="header">
+    <header>
       <nav
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -22,16 +22,10 @@
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="index.header-hero.partial.html"
+        data-hx-get="contacts.header-hero.partial.html"
       ></section>
     </header>
-    <main>
-      <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.what-to-expect.partial.html"
-    ></section>
-    </main>
+    <main>Contacts</main>
     <footer></footer>
   </body>
 </html>
