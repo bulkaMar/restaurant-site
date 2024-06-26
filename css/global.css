@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --global-title-color: #ff5d28;
+  --global-secondary-text: rgb(130, 134, 143);
+  --global-background-button: #ff5722;
+  --global-background-button-hover: #da3a0a;
+  --global-subtitle-color: rgb(75, 86, 106);
+  --global-text-button: #fff;
+  --header-conection-background: #ff5d27;
+  --header-connection-text: #a63a18;
+  --header-menu-background: #f7f6f2;
+  --header-hero-content__contact: rgb(75, 86, 106);
+  --what-to-expect-text: rgb(130, 134, 143);
+  --what-to-expect__item-underline: #ff5d28;
+  --about-us-content__description: rgb(130, 134, 143);
+  --about-us-content__secondary-text: rgb(155, 158, 164);
+  --new-pasta-background-color:#f7f6f2;
+  scroll-behavior: smooth;
+}
+img {
+  display: block;
+  width: 100%;
+}
+iframe {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}

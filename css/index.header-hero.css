@@ -1,0 +1,86 @@
+.header-hero-content__title {
+  color: var(--global-title-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 15.73px;
+  letter-spacing: 1.1px;
+}
+.header-hero-content__subtitle {
+  color: rgb(75, 86, 106);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 59px;
+  margin-top: 20px;
+}
+.header-hero-content__secondary-text {
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 26px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.header-hero-content {
+  padding: 100px 30px 50px 30px;
+}
+.header-hero-content__button {
+  background-color: var(--global-background-button);
+  padding: 15px 37px;
+  border: none;
+  border-radius: 7px 25px 25px 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header-hero-content__button:hover {
+  background-color: var(--global-background-button-hover);
+}
+.header-hero-content__button span {
+  color: var(--global-text-button);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1.1px;
+  margin-bottom: 20px;
+}
+.header-hero-content__contact {
+  display: flex;
+  margin-top: 30px;
+}
+.header-hero-content__contact span {
+  color: var(--header-hero-content__contact);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1.1px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+@media (min-width: 740px) {
+  .header-hero-content {
+    padding: 160px 40px;
+    max-width: 500px;
+  }
+  .header-hero {
+    position: relative;
+    width: 100%;
+    background-image: url(../img/index.header-hero/index.header-hero-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+@media (min-width: 992px) {
+  .header-hero-content {
+    max-width: 700px;
+  }
+}

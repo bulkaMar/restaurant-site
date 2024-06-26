@@ -1,0 +1,91 @@
+.what-to-expect__text-container {
+  text-align: center;
+  padding: 50px 24px;
+}
+.what-to-expect__title {
+  color: var(--global-title-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 15.73px;
+  letter-spacing: 1.1px;
+}
+.what-to-expect__subtitle {
+  margin-top: 20px;
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 41px;
+}
+.what-to-expect-content-decor-for-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+.what-to-expect__secondary-text {
+  color: var(--what-to-expect-text);
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 26px;
+}
+.what-to-expect__item-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 30px;
+}
+.what-to-expect__item-content {
+  margin-top: 40px;
+}
+.what-to-expect__item-content img {
+  width: 75px;
+  height: 75px;
+}
+.what-to-expect__item-title {
+  color: var(--global-subtitle-color);
+  margin-top: 20px;
+  font-family: "Vollkorn", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 28px;
+}
+.what-to-expect__item-underline {
+  width: 45px;
+  height: 4px;
+  background-color: var(--what-to-expect__item-underline);
+  margin-top: 20px;
+}
+.what-to-expect__item-description {
+  color: var(--what-to-expect-text);
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+@media (min-width: 456px) {
+  .what-to-expect__item-content img {
+    width: 95px;
+    height: 95px;
+  }
+}
+@media (min-width: 740px) {
+  .what-to-expect__item-content img {
+    width: 100px;
+    height: 100px;
+  }
+  .what-to-expect__item-content {
+    padding: 0px 40px;
+  }
+  .what-to-expect__item-container {
+    flex-wrap: nowrap;
+  }
+}

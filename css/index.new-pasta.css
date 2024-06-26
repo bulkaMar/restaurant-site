@@ -1,0 +1,211 @@
+.new-pasta {
+  background-color: var(--new-pasta-background-color);
+  padding: 95px 0px;
+}
+
+.new-pasta__title {
+  color: var(--global-title-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 15.73px;
+  letter-spacing: 1.1px;
+}
+
+.new-pasta__content-text {
+  text-align: center;
+  padding: 0px 24px;
+}
+
+.new-pasta__subtitle {
+  margin-top: 20px;
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.new-pasta-content-decor-for-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.new-pasta__description {
+  margin-top: 20px;
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 26px;
+}
+
+.new-pasta__content-item {
+  margin: 45px 30px 0px 30px;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.new-pasta-item-meals {
+  flex: 0 0 48%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 2px solid red;
+}
+
+.new-pasta-item-meals-text {
+  padding: 29px 27px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.new-pasta-item-meals-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.new-pasta-item-meals__title {
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 26px;
+}
+
+.new-pasta-item-meals__subtitle {
+  margin-top: 20px;
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.new-pasta-item-meals__ingridients span {
+  font-weight: 500;
+  margin-top: 20px;
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-style: italic;
+}
+
+.new-pasta-item-meals__ingridients {
+  margin-top: 20px;
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  font-style: italic;
+}
+
+.new-pasta-item-meals__description {
+  margin-top: 20px;
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+.new-pasta__footer{
+    margin-top: 50px;
+    text-align: center;
+}
+.new-pasta__footer-text{
+    color: var(--global-subtitle-color);
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+}
+.new-pasta__footer-text span{
+    font-style: italic;
+}
+.new-pasta__footer-contact-info{
+    margin-top: 20px;
+    color: var(--global-secondary-text);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 31px;
+
+}
+
+.new-pasta__footer-contact-info a{
+    color: var(--global-title-color);
+    text-decoration: underline;
+
+
+}
+@media (min-width: 479px) {
+  .new-pasta__content-item {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  }
+
+  .new-pasta-item-meals {
+    flex: 0 0 calc(50% - 20px);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid red;
+  }
+
+  .new-pasta-item-meals-img {
+    border-radius: 20px;
+  }
+
+  .new-pasta-item-meals-text {
+    border-radius:0px 20px 20px 0px;
+  }
+}
+
+@media (min-width: 767px) {
+  .new-pasta__content-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .new-pasta-item-meals {
+    flex: 0 0 100%;
+    display: flex;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 2px solid red;
+  }
+  .reverse{
+    display: flex;
+    flex-direction: row-reverse;
+   
+  }
+  .border-radius{
+    border-radius: 20px 0px 0px 20px;
+  }
+  .new-pasta-item-meals:last-child {
+    margin-right: 0;
+  }
+  .new-pasta-item-meals-img img {
+    width: 400px;
+  }
+}
+
+@media (min-width:998px){
+    .new-pasta-item-meals {
+        flex: 0 0 calc(50% - 20px);
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: 2px solid red;
+      }
+}

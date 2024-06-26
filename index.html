@@ -11,14 +11,17 @@
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header class="header">
-      <nav
+      <div>
+        <nav
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
       ></nav>
+      </div>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -67,11 +70,27 @@
         data-hx-get="index.catering.partial.html"
       ></section>
       <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.gift-cards.partial.html"
-    ></section>
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.gift-cards.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.carousel-meals.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.news.partial.html"
+      ></section>
     </main>
-    <footer></footer>
+    <footer>
+      <div  data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="global.footer.partial.html"
+      >
+      </div>
+    </footer>
   </body>
 </html>
