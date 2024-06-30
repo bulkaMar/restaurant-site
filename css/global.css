@@ -22,6 +22,10 @@
   --about-us-content__secondary-text: rgb(155, 158, 164);
   --new-pasta-background-color: #f7f6f2;
   --book-table-secondary-text: rgba(255,255,255,0.81);
+  --menu-meals-details__description:rgb(155, 158, 164);
+  --menu-button-color:#ff5d28;
+  --menu__action-button: #ffffff;
+  --special-offers-background:#f7f6f2;
   scroll-behavior: smooth;
 }
 img {

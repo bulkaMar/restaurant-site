@@ -1,0 +1,121 @@
+.menu {
+  padding: 30px 24px 100px 24px;
+}
+.menu__item {
+  margin-bottom: 30px;
+}
+.menu-meals-details__title {
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 35px;
+  margin-right: 5px;
+}
+.menu-meals-details__price {
+  color: var(--global-title-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23px;
+  margin-left: 10px;
+}
+.menu-meals-details__description {
+  color: var(--menu-meals-details__description);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+.menu__actions {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+  padding: 0px 40px 0px 40px;
+}
+.menu__action-button {
+  background-color: var(--menu__action-button);
+  padding: 10px 0px;
+  border: none;
+  border-radius: 7px 25px 25px 25px;
+  border: 2px solid #ff5d28;
+  cursor: pointer;
+}
+.menu__action-button span {
+  color: var(--menu-button-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.1px;
+  margin-bottom: 20px;
+}
+.menu__action-open {
+  margin-top: 10px;
+  background-color: var(--global-background-button);
+  padding: 10px 0px;
+  border: none;
+  border-radius: 7px 25px 25px 25px;
+  cursor: pointer;
+}
+.menu__action-open span {
+  color: var(--global-text-button);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.1px;
+  margin-bottom: 20px;
+}
+@media (min-width: 404px) {
+  .menu__actions {
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+  }
+  .menu__action-button {
+    margin-right: 20px;
+    padding: 10px;
+  }
+  .menu__action-open {
+    margin: 0px;
+    padding: 10px;
+  }
+}
+@media (min-width: 672px) {
+  .menu {
+    padding: 30px 40px 120px 40px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/index.menu/index-menu-background.png);
+  }
+  .menu__item-container {
+    display: flex;
+  }
+  .menu__actions {
+    justify-content: center;
+    margin-top: 45px;
+  }
+  .menu-meals-details__title {
+    font-size: 24px;
+  }
+  .menu-meals {
+    padding: 0px 30px 0px 30px;
+  }
+  .menu__action-button:hover {
+    background-color: var(--global-background-button);
+  }
+  .menu__action-open:hover {
+    background-color: var(--global-background-button-hover);
+  }
+  .menu__action-button span:hover {
+    color: var(--global-text-button);
+  }
+}

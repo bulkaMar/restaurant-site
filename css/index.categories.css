@@ -1,0 +1,109 @@
+.categories {
+  padding: 95px 24px 30px 24px;
+}
+
+.categories__title {
+  color: var(--global-title-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 15.73px;
+  letter-spacing: 1.1px;
+}
+.categories__content-text {
+  text-align: center;
+}
+.categories__subtitle {
+  margin-top: 20px;
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 41px;
+}
+.categories-content-decor-for-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.categories__secondary-text {
+  margin-top: 20px;
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 26px;
+}
+
+.categories__content-proposition-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+}
+.categories__content-item{
+	margin-top: 45px;
+}
+.categories__content-proposition {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+
+}
+
+.categories__content-proposition__title{
+	margin-top: 10px;
+	color: var(--global-subtitle-color);
+	font-family: "Vollkorn", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.categories__content-proposition__title span{
+	color: var(--global-background-button);
+}
+
+.categories__content-proposition__offering{
+	color: var(--global-secondary-text);
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 24px;
+}
+
+.categories__content-item-img{
+	position: relative;
+    max-width: 100%;
+    height: 100%;
+}
+
+@media (min-width:791px){
+	.categories__content-item{
+		margin-bottom: 20px;
+		display: flex;
+	}
+	.categories__content-proposition{
+		flex-direction: column;
+	}
+	.categories__content-proposition-img{
+		width: 120px;
+		height: 120px;
+	}
+}
+@media (min-width:929px){
+	.categories__content-proposition{
+		flex-direction: row;
+	}
+	.categories__content-proposition-img{
+		width: 150px;
+		height: 150px;
+	}
+}
