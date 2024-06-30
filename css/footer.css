@@ -1,0 +1,214 @@
+.footer {
+  background-color: var(--footer-background);
+}
+.footer__top {
+  padding: 80px 24px 15px 24px;
+}
+.footer__service {
+  display: flex;
+  margin-bottom: 50px;
+}
+.footer-service-icon {
+  width: 50px;
+  height: 50px;
+}
+.footer__service-title {
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 33px;
+}
+.footer__service-text-container {
+  margin-left: 10px;
+}
+.footer__service-text {
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+.svg-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.footer__bottom {
+  padding: 30px 24px 50px 24px;
+}
+.footer__column-img {
+  width: 130px;
+  margin: auto;
+  padding: auto;
+}
+.footer__text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+.footer__offer {
+  display: flex;
+  flex-direction: column;
+}
+.footer__offer-link {
+  margin-bottom: 20px;
+  color: var(--global-subtitle-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 28px;
+  text-decoration: underline;
+}
+.footer__socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.footer__socials-icon {
+  width: 20px;
+  height: 20px;
+}
+.footer__column {
+  margin-top: 60px;
+  text-align: center;
+}
+.footer__column-title {
+  margin-bottom: 10px;
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 28px;
+}
+.footer__link {
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 28px;
+}
+.footer__item-underline {
+  width: 55px;
+  height: 3px;
+  background-color: var(--footer__item-underline);
+  margin: auto;
+}
+.footer__item-text {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.footer__column-links {
+  margin-top: 60px;
+  text-align: center;
+}
+.footer__column-contact-us {
+  margin-top: 60px;
+  text-align: center;
+}
+.footer__text {
+  display: flex;
+  justify-content: center;
+}
+.footer__column-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.footer__secondary-text {
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer__secondary-text span {
+  font-style: italic;
+}
+.footer__copyright {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.footer__copyright-text {
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@media (min-width: 719px) {
+  .footer__top {
+    display: flex;
+    flex-direction: row;
+    padding: 90px 40px 15px 40px;
+  }
+  .footer__service {
+    margin-left: 20px;
+    flex-direction: column;
+  }
+  .footer-service-icon {
+    margin-bottom: 10px;
+    width: 70px;
+    height: 70px;
+  }
+  .footer__service-text-container {
+    margin-left: 10px;
+  }
+}
+@media (min-width: 796px) {
+  .footer__bottom {
+    display: flex;
+  }
+}
+@media (min-width: 998px) {
+  .footer__service-title {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  .footer__column-img {
+    margin: 0;
+  }
+  .footer__column {
+    text-align: left;
+    padding-right: 40px;
+    padding-left: 30px;
+  }
+  .footer__offer {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .footer__offer-link {
+    font-size: 11px;
+  }
+  .footer__socials {
+    justify-content: start;
+  }
+  .footer__bottom {
+    padding: 30px 40px 60px 40px;
+  }
+  .footer__item-underline{
+    margin: 0;
+  }
+  .footer__link {
+    font-size: 15px;
+  }
+  .footer__text{
+    justify-content: left;
+  }
+  .footer__column{
+    margin: 0;
+  }
+}

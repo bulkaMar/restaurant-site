@@ -21,11 +21,22 @@
   --about-us-content__description: rgb(130, 134, 143);
   --about-us-content__secondary-text: rgb(155, 158, 164);
   --new-pasta-background-color: #f7f6f2;
-  --book-table-secondary-text: rgba(255,255,255,0.81);
-  --menu-meals-details__description:rgb(155, 158, 164);
-  --menu-button-color:#ff5d28;
+  --book-table-secondary-text: rgba(255, 255, 255, 0.81);
+  --menu-meals-details__description: rgb(155, 158, 164);
+  --menu-button-color: #ff5d28;
   --menu__action-button: #ffffff;
-  --special-offers-background:#f7f6f2;
+  --special-offers-background: #f7f6f2;
+  --catering__secondary-text: rgb(155, 158, 164);
+  --gift-cards-text: #ffffff;
+  --gift-card-button: #ffffff;
+  --gift-cards-buuton-text: rgb(75, 86, 106);
+  --gift-cards: #ffffff;
+  --gift-cards-references: rgb(255, 93, 40);
+  --gift-cards-button-hover: rgb(60, 65, 76);
+  --news-text: rgb(247, 246, 242, 0.8);
+  --news-read-more: rgb(255, 93, 40);
+  --footer-background: #f7f6f2;
+  --footer__item-underline: #ff5d28;
   scroll-behavior: smooth;
 }
 img {
