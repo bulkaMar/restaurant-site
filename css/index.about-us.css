@@ -84,7 +84,7 @@
     width: 50%;
     padding: 0 15px;
   }
-  .about-us {
+  .about-us-index {
     padding: 50px 0;
     background-image: url("../img/about-us/background-about-us.png");
     background-position: -600px center;
@@ -96,7 +96,7 @@
   .about-us-content-text {
     padding: 0px 30px;
   }
-  .about-us {
+  .about-us-index {
     background-image: url("../img/about-us/background-about-us.png");
     background-position: -400px center;
   }

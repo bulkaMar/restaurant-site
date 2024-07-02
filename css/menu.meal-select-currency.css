@@ -1,0 +1,26 @@
+.meals-select-currency{
+	padding: 80px 24px 30px 24px;
+}
+.currency-selector__title{
+	color: var(--global-title-color);
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 26px;
+}
+.meals-select{
+	border: 2px solid #ff5722;
+	border-radius: 5px;
+	margin-left: 10px;
+	width: 100px;
+	padding: 5px;
+}
+.meals-select-text{
+	color: var(--global-text-button);
+	font-family: "Vollkorn", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 19px;
+}

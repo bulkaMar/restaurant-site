@@ -11,10 +11,10 @@
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/about-us.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -26,7 +26,25 @@
         data-hx-get="about-us.header-hero.partial.html"
       ></section>
     </header>
-    <main>About US</main>
-    <footer></footer>
+    <main>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="about-us.our-story.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="about-us.our-restaurant.partial.html"
+      ></section>
+    </main>
+    <footer>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.footer.partial.html"
+      ></div>
+    </footer>
+    <script src="js/about-us.js"></script>
   </body>
 </html>

@@ -11,10 +11,10 @@
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -26,7 +26,50 @@
         data-hx-get="menu.header-hero.partial.html"
       ></section>
     </header>
-    <main>MENU</main>
-    <footer></footer>
+    <main>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="menu.select-currency.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="menu.special-meals-menu.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="menu.lunch-meals-menu.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="menu.main-meals-menu.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="menu.drinks-menu.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="menu.desserts-menu.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="menu.reserve.partial.html"
+      ></section>
+    </main>
+    <footer>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.footer.partial.html"
+      ></div>
+    </footer>
+    <script src="js/menu.js"></script>
   </body>
 </html>

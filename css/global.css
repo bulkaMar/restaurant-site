@@ -15,6 +15,7 @@
   --header-conection-background: #ff5d27;
   --header-connection-text: #a63a18;
   --header-menu-background: #f7f6f2;
+  --header__navicon: #4b566a;;
   --header-hero-content__contact: rgb(75, 86, 106);
   --what-to-expect-text: rgb(130, 134, 143);
   --what-to-expect__item-underline: #ff5d28;
@@ -33,10 +34,14 @@
   --gift-cards: #ffffff;
   --gift-cards-references: rgb(255, 93, 40);
   --gift-cards-button-hover: rgb(60, 65, 76);
+  --carousel-meals-background:#373e4a;
   --news-text: rgb(247, 246, 242, 0.8);
   --news-read-more: rgb(255, 93, 40);
   --footer-background: #f7f6f2;
   --footer__item-underline: #ff5d28;
+  --global-header-hero-title:rgb(255, 255, 255);
+  --global-header-hero-references: rgba(247, 246, 242, 0.62);
+  --our-story__details__secondary-text: rgb(155, 158, 164);
   scroll-behavior: smooth;
 }
 img {
@@ -55,4 +60,7 @@ ul {
 .container {
   max-width: 1200px;
   margin: auto;
+}
+.overflow-hidden {
+  overflow: hidden;
 }

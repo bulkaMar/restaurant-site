@@ -1,4 +1,4 @@
-.menu {
+.menu-index {
   padding: 30px 24px 100px 24px;
 }
 .menu__item {
@@ -89,7 +89,7 @@
   }
 }
 @media (min-width: 672px) {
-  .menu {
+  .menu-index {
     padding: 30px 40px 120px 40px;
     width: 100%;
     background-size: cover;

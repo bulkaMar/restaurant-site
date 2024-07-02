@@ -150,8 +150,8 @@
   .news {
     width: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
+    background-size: contain;
+    background-position: bottom;
     background-image: url(../img/news/news-back.png);
   }
   .news__content-item img {

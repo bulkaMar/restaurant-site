@@ -1,0 +1,113 @@
+.our-story {
+  padding: 95px 24px 30px 24px;
+  background-color: #f7f6f0;
+}
+.our-story__text-container {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.our-story__title {
+  color: var(--global-title-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 15.73px;
+  letter-spacing: 1.1px;
+}
+.our-story__subtitle {
+  margin-top: 20px;
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 40px;
+}
+.our-story-content-decor-for-text {
+  width: 100px;
+  margin: auto;
+  padding: auto;
+}
+.our-story__description {
+  margin-top: 15px;
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 26px;
+}
+.our-story__details-container {
+  text-align: center;
+}
+.our-story__details-item {
+  padding-bottom: 30px;
+}
+.our-story__details__title {
+  color: var(--global-title-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 31px;
+}
+.our-story__details__underline {
+  width: 45px;
+  height: 3px;
+  background-color: #82868f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.our-story__details__secondary-text {
+  margin-top: 15px;
+  color: var(--our-story__details__secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+.our-story__details-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-story__content {
+  padding: 30px 0px;
+}
+.our-story__content-text {
+  padding-top: 20px;
+}
+.our-story__content-secondary-text {
+  margin-top: 15px;
+  color: var(--our-story__details__secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+@media (min-width: 522px) {
+  .our-story__details-container {
+    display: flex;
+    gap: 20px;
+  }
+}
+@media (min-width: 960px) {
+  .our-story {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top;
+    background-image: url(../img/our-story/our-story-background.png);
+  }
+  .our-story__details {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  .our-story__details__title {
+    font-size: 32px;
+  }
+}

@@ -182,6 +182,13 @@
   }
 }
 @media (min-width: 998px) {
+  .new-pasta{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/new-pasta/background-new-pasta.svg);
+  }
   .new-pasta__content-item {
     display: grid;
     grid-template-columns: 2fr 2fr;

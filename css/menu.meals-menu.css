@@ -1,0 +1,176 @@
+.special-meals-menu {
+  background-image: url(../img/menu/specials-meals-background.svg);
+  background-position: right 50px top 10px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 15px 24px 30px 24px;
+}
+.lunch-meals-menu {
+  background-image: url(../img/menu/lunch-meals-background.svg);
+  background-position: right 30px top 10px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 5px 24px 30px 24px;
+}
+.main-meals-menu {
+  background-image: url(../img/menu/main-meals-background.svg);
+  background-position: right 20px top 10px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 5px 24px 30px 24px;
+}
+.drinks-menu {
+  background-image: url(../img/menu/drinks-background.svg);
+  background-position: right 20px top 10px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 5px 24px 30px 24px;
+}
+.desserts-menu {
+  background-image: url(../img/menu/desserts-background.svg);
+  background-position: right 40px top 10px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 5px 24px 30px 24px;
+}
+.meals-menu__text-container {
+  display: flex;
+  flex-direction: column;
+}
+.meals-menu__description-wrapper {
+  margin-top: 50px;
+}
+.meals-menu__title {
+  color: var(--global-title-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 15.73px;
+  letter-spacing: 1.1px;
+}
+.meals-menu__subtitle {
+  margin-top: 20px;
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 40px;
+}
+.meals-menu-content-decor-for-text {
+  width: 100px;
+}
+.meals-menu__description {
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 17px;
+  line-height: 28px;
+}
+.menu-meals-details__title {
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 35px;
+  margin-right: 5px;
+}
+.menu-meals-details__price {
+  color: var(--global-title-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 23px;
+  margin-left: 10px;
+}
+.menu-meals-details__description {
+  color: var(--menu-meals-details__description);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 17px;
+  line-height: 24px;
+}
+.menu-meals-item-container {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+}
+.menu-meals__items {
+  margin-bottom: 40px;
+}
+.menu-meals__item-details {
+  margin-bottom: 20px;
+}
+.svg-container {
+	padding-left: 30px;
+	padding-right: 30px;
+  }
+@media (min-width: 628px) {
+  .menu-meals-item-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .menu-meals__items {
+    flex: 0 0 48%;
+  }
+  .special-meals-menu {
+    background-position: right 150px top 10px;
+  }
+  .lunch-meals-menu,
+  .main-meals-menu,
+  .drinks-menu,
+  .desserts-menu {
+    background-position: right 180px top 10px;
+  }
+}
+
+@media (min-width: 854px) {
+  .special-meals-menu {
+    background-size: 150px;
+    background-position: right 600px top 10px;
+  }
+  .lunch-meals-menu,
+  .main-meals-menu,
+  .drinks-menu,
+  .desserts-menu {
+    background-position: right 600px top 10px;
+    background-size: 150px;
+  }
+  .meals-menu__text-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .meals-menu__header {
+    flex: 0 0 48%;
+
+  }
+  .meals-menu__description-wrapper{
+	margin: 0;
+	padding: 0px 24px;
+  }
+}
+@media (min-width: 1000px) {
+	.special-meals-menu {
+	  background-size: 200px;
+	  background-position: right 900px top 10px;
+	}
+	.lunch-meals-menu,
+	.main-meals-menu,
+	.drinks-menu,
+	.desserts-menu {
+	  background-position: right 900px top 10px;
+	  background-size: 200px;
+	}
+  }

@@ -1,0 +1,100 @@
+.our-restaurant__image img {
+  height: 250px;
+  object-fit: cover;
+  object-position: bottom;
+}
+.our-restaurant-description {
+  padding: 90px 24px 90px 24px;
+}
+
+.our-restaurant__title {
+  color: var(--global-title-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 15.73px;
+  letter-spacing: 1.1px;
+}
+.our-restaurant__subtitle {
+  margin-top: 20px;
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 40px;
+}
+.our-restaurant-content-decor-for-text {
+  width: 100px;
+}
+.our-restaurant__description {
+  margin-top: 15px;
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 26px;
+}
+.our-restaurant__secondary-text {
+  margin-top: 20px;
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+.our-restaurant__list-container {
+  padding-top: 20px;
+}
+.our-restaurant__list-item {
+  display: flex;
+  padding-bottom: 20px;
+}
+.our-restaurant__list-text {
+  margin-left: 10px;
+}
+.our-restaurant__list__description {
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+@media (min-width: 480px) {
+  .our-restaurant__image img {
+    height: 350px;
+  }
+}
+@media (min-width: 600px) {
+  .our-restaurant__image img {
+    height: 450px;
+  }
+}
+@media (min-width: 770px) {
+  .our-restaurant__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .our-restaurant__content {
+    display: flex;
+  }
+  .our-restaurant-description {
+    width: 700px;
+    padding: 90px 50px 90px 40px;
+  }
+}
+@media (min-width: 1100px) {
+	.our-restaurant__image img {
+	  width: 700px;
+	  height: 700px;
+	}
+	.our-restaurant-description {
+		width: 700px;
+		padding: 40px 50px 0px 40px;
+	  }
+  }
