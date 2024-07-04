@@ -1,5 +1,7 @@
 function init() {
     import('./header.js');
+    import('./contacts.reservation-option.js');
+    import('./contacts.reservation-form.js');
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;

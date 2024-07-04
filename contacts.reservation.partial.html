@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="reservation" id="#book-a-table">
+      <div class="container">
+        <div class="reservation__content-container">
+          <div class="reservation__content-item">
+            <div class="reservation__text-container">
+              <h2 class="reservation__title">- BOOK A TABLE -</h2>
+              <p class="reservation__subtitle">Reservation Conditions</p>
+              <img
+                class="reservation-content-decor-for-text"
+                src="img/what-to-expect/decor-for-text-block.svg"
+                alt="Decor for the text block"
+              />
+              <p class="reservation__description">
+                Please make sure you've made the reservation before your visit.
+              </p>
+              <p class="reservation__secondary-text">
+                All of our restaurants are quite popular, so we cannot guarantee
+                you a seat unless you reserve a table in advance. You can book a
+                table by filling the form on the right or by contacting us in
+                any convenient way. Below you will find some reservation rules
+                we ask our guests to follow.
+              </p>
+            </div>
+            <div class="reservation__rules-container">
+              <ul class="reservation__rules__list">
+                <li class="reservation__rules__list-item">
+                  <img
+                    class="reservation__rules__list-item-img"
+                    src="img/contacts-reservation/contacts-cancel.svg"
+                    alt="Birthday icon"
+                  />
+                  <div class="reservation__rules-text">
+                    <h3 class="reservation__rules-title">
+                      Booking Cancellation
+                    </h3>
+                    <p class="reservation__rules-description">
+                      Cancellations must be made at least 24 hours in advance.
+                      Please call us to cancel your reservation.
+                    </p>
+                  </div>
+                </li>
+                <li class="reservation__rules__list-item">
+                  <img
+                    class="reservation__rules__list-item-img"
+                    src="img/contacts-reservation/contacts-booking.svg"
+                    alt="Birthday icon"
+                  />
+                  <div class="reservation__rules-text">
+                    <h3 class="reservation__rules-title">
+                      Booking Finalization
+                    </h3>
+                    <p class="reservation__rules-description">
+                      All reservations must be finalised with the restaurant no
+                      later than 12 hours prior to the reservation date.
+                    </p>
+                  </div>
+                </li>
+                <li class="reservation__rules__list-item">
+                  <img
+                    class="reservation__rules__list-item-img"
+                    src="img/contacts-reservation/contacts-minimun-spend.svg"
+                    alt="Birthday icon"
+                  />
+                  <div class="reservation__rules-text">
+                    <h3 class="reservation__rules-title">Minimum Spend</h3>
+                    <p class="reservation__rules-description">
+                      There is no minimum spend required for a reservation. The
+                      exception is group bookings for 6+ people.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="reservation__content-form">
+            <form
+              id="reservation__form"
+              class="reservation-form"
+              action="https://formspree.io/f/meojqraq"
+              method="post"
+            >
+              <div class="reservation-form__text">
+                <h2 class="reservation__content-form__subtitle">
+                  Book a Table
+                </h2>
+                <img
+                  class="reservation__content-form-content-decor-for-text"
+                  src="img/what-to-expect/decor-for-text-block.svg"
+                  alt="Decor for the text block"
+                />
+              </div>
+              <div class="reservation-form__input">
+                <div>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Name*"
+                    required
+                  />
+                </div>
+                <div>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Phone number*"
+                    required
+                  />
+                  <span id="phoneError" class="error-message"></span>
+                </div>
+                <div>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                  <span id="emailError" class="error-message"></span>
+                </div>
+                <div>
+                  <input
+                    id="datetime"
+                    name="datetime"
+                    required
+                    placeholder="Date and Time*"
+                  />
+                  <span id="datetimeError" class="error-message"></span>
+                </div>
+              </div>
+              <div>
+                <button
+                  id="reservation__form-button"
+                  class="reservation__content-button"
+                  type="submit"
+                >
+                  <span>Book a Table</span>
+                </button>
+                <p class="reservation__form-status" id="reservation__form-status"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

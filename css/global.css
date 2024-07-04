@@ -42,6 +42,16 @@
   --global-header-hero-title:rgb(255, 255, 255);
   --global-header-hero-references: rgba(247, 246, 242, 0.62);
   --our-story__details__secondary-text: rgb(155, 158, 164);
+  --carousel-shadow-color: rgba(0, 0, 0, 0.2);
+  --carousel-bg-color: #fff;
+  --carousel-caption-bg-color: white;
+  --carousel-caption-text-color: white;
+  --carousel-btn-bg-color: #ffffffe3;
+  --carousel-btn-text-color: #434546;
+  --our-team-secondary-text-color: rgba(247, 246, 242, 0.62);
+  --our-team-subtitle-color: var(--global-text-button);
+  --carousel-caption-name-color: var(--global-secondary-text);
+  --carousel-caption-position-color: rgb(155, 158, 164);
   scroll-behavior: smooth;
 }
 img {

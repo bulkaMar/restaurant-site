@@ -8,10 +8,10 @@
 .header.nav-visible .header__connection_background {
   display: block;
   position: absolute;
-  top: 300px;
+  top: 340px;
   width: 100%;
   background-color: var(--header-menu-background);
-  z-index: 3;
+  z-index: 2;
 }
 .header.nav-visible .header__nav-menu {
   display: flex;

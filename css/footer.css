@@ -157,7 +157,7 @@
   }
   .footer__service {
     margin-left: 20px;
-    flex-direction: column;
+    flex-direction: row;
   }
   .footer-service-icon {
     margin-bottom: 10px;

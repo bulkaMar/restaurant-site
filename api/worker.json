@@ -1,0 +1,31 @@
+[
+	{
+	  "id": "1",
+	  "image": "img/our-team/jim-maisner-cook.jpeg",
+	  "name": "Jim Maisner",
+	  "position": "Cook",
+	  "description": "Jim Maisner is a highly skilled cook with over 10 years of experience in creating delicious dishes that delight our customers."
+	},
+	{
+	  "id": "2",
+	  "image": "img/our-team/jack-porter-cook.jpeg",
+	  "name": "Jack Porter",
+	  "position": "Cook",
+	  "description": "Jack Porter is known for his innovative cooking techniques and his dedication to using fresh, local ingredients."
+	},
+	{
+	  "id": "3",
+	  "image": "img/our-team/peter-manujo-chef.jpeg",
+	  "name": "Peter Manujo",
+	  "position": "Chef",
+	  "description": "Peter Manujo leads our kitchen with expertise and passion, creating unforgettable culinary experiences for our guests."
+	},
+	{
+	  "id": "4",
+	  "image": "img/our-team/helen-rudash-sous-chef.jpeg",
+	  "name": "Helen Rudash",
+	  "position": "Sous Chef",
+	  "description": "Helen Rudash assists in managing the kitchen and ensures that every dish meets our high standards of quality and taste."
+	}
+  ]
+  

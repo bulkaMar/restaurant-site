@@ -54,7 +54,7 @@
   display: flex;
   margin-top: 30px;
 }
-.header-hero-content__contact span {
+.header-hero-content__contact-references {
   color: var(--header-hero-content__contact);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
