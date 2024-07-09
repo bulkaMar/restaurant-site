@@ -52,6 +52,13 @@
   --our-team-subtitle-color: var(--global-text-button);
   --carousel-caption-name-color: var(--global-secondary-text);
   --carousel-caption-position-color: rgb(155, 158, 164);
+  --contacts-acordion-background:#f7f6f2;
+  --contacts-active-span:#ff5722;
+  --contacts-reserve-background:#f7f6f2;
+  --reservation__content-form: white;
+  --form-validate-background:#ffe6e6;
+  --reservation-error-message:red;
+  --contacts-background: #f7f6f2;
   scroll-behavior: smooth;
 }
 img {

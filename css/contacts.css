@@ -2,4 +2,6 @@
 @import "header.css";
 @import "header-hero.css";
 @import "contacts.reservation.css";
+@import "contacts.accordion.css";
+@import "contacts.locations.css";
 @import "footer.css";

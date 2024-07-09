@@ -1,0 +1,94 @@
+.contacts-acordion {
+  padding: 30px 24px 35px 24px;
+  background-color: var(--contacts-acordion-background);
+}
+.contacts-accordion-content {
+  padding-bottom: 40px;
+}
+.contacts-accordion-items {
+  padding: 20px 0px 10px 0px;
+  border-bottom: 1px solid #d5d6d7;
+}
+.accordion__title-container {
+  display: flex;
+  justify-content: space-between;
+}
+.accordion__title {
+  color: var(--global-subtitle-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 26px;
+}
+.accordion__title-container span {
+  display: inline-flex;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  transform: rotate(0);
+  transition: transform 0.5s ease-out;
+}
+.accordion__title-container.active span::after {
+  opacity: 0;
+}
+.accordion__title-container span::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4b566a;
+}
+.accordion__title-container.active span::before,
+.accordion__title-container.active span::after {
+  background-color: var(--contacts-active-span);
+}
+.accordion__title-container span::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--global-subtitle-color);
+}
+.accordin__item-container {
+  overflow: hidden;
+  box-sizing: content-box;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 20px;
+  transition: max-height 0.5s ease-out, margin-top 0.5s ease-out,
+    opacity 0.1s ease-out, visibility 0.1s ease-out;
+}
+.accordin__item-container.active {
+  visibility: visible;
+  opacity: 1;
+  transition: max-height 0.5s ease-out, margin-top 0.5s ease-out,
+    opacity 0.1s ease-out, visibility 0.1s ease-out;
+}
+.accordin__item-text {
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+@media (min-width: 800px) {
+  .contacts-accordion-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .contacts-accordion-content {
+    width: 48%;
+  }
+}

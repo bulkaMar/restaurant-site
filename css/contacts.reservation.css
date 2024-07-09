@@ -1,8 +1,7 @@
 .reservation {
-  background-color: #f7f6f0;
+  background-color: var(--contacts-reserve-background);
   padding: 95px 24px 30px 24px;
 }
-
 .reservation__title {
   color: var(--global-title-color);
   font-family: "Roboto", sans-serif;
@@ -12,7 +11,6 @@
   line-height: 15.73px;
   letter-spacing: 1.1px;
 }
-
 .reservation__subtitle {
   margin-top: 20px;
   color: var(--global-subtitle-color);
@@ -22,7 +20,6 @@
   font-size: 34px;
   line-height: 41px;
 }
-
 .reservation__description {
   margin-top: 20px;
   color: var(--global-secondary-text);
@@ -32,11 +29,9 @@
   font-size: 19px;
   line-height: 26px;
 }
-
 .reservation-content-decor-for-text {
   width: 100px;
 }
-
 .reservation__secondary-text {
   margin-top: 20px;
   color: var(--global-secondary-text);
@@ -46,22 +41,18 @@
   font-size: 17px;
   line-height: 24px;
 }
-
 .reservation__rules-container {
   margin-top: 30px;
 }
-
 .reservation__rules__list-item {
   margin-bottom: 30px;
   display: flex;
 }
-
 .reservation__rules__list-item-img {
   width: 50px;
   height: 50px;
   margin-right: 10px;
 }
-
 .reservation__rules-title {
   color: var(--global-subtitle-color);
   font-family: "Vollkorn", serif;
@@ -70,7 +61,6 @@
   font-size: 22px;
   line-height: 28px;
 }
-
 .reservation__rules-description {
   color: var(--catering__secondary-text);
   font-family: "Roboto", sans-serif;
@@ -79,22 +69,18 @@
   font-size: 17px;
   line-height: 24px;
 }
-
 .reservation__content-form {
   padding: 50px 24px;
-  background-color: white;
+  background-color: var(--reservation__content-form);
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Додана тінь */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .reservation__content-item {
   padding-bottom: 40px;
 }
-
 .reservation-form {
   text-align: center;
 }
-
 .reservation__content-form__subtitle {
   color: var(--global-subtitle-color);
   font-family: "Vollkorn", serif;
@@ -103,36 +89,31 @@
   font-size: 34px;
   line-height: 41px;
 }
-
 .reservation__content-form-content-decor-for-text {
   width: 100px;
   margin: auto;
 }
-
 .reservation-form__text {
   padding-bottom: 20px;
 }
-
 .reservation-form__input input,
 .reservation-form__input select {
   margin-bottom: 20px;
-  background-color: #f7f6f2;
-  border: 2px solid #f7f6f2;
+  background-color: var(--contacts-reserve-background);
+  border: 2px solid var(--contacts-reserve-background);
   border-radius: 7px 25px 25px 25px;
   padding: 15px 37px;
   width: 100%;
   box-sizing: border-box;
 }
-
 .reservation-form__input input::placeholder {
-  color: rgb(130, 134, 143);
+  color: var(--global-secondary-text);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
   line-height: 17px;
 }
-
 .reservation-select-text {
   color: var(--global-text-button);
   font-family: "Vollkorn", serif;
@@ -141,7 +122,6 @@
   font-size: 12px;
   line-height: 19px;
 }
-
 .reservation__content-button {
   background-color: var(--global-background-button);
   padding: 10px 30px;
@@ -174,11 +154,11 @@
 	line-height: 28px;
 }
 .form-validate {
-  border: 2px solid red;
-  background-color: #ffe6e6;
+  border: 2px solid var(--reservation-error-message);
+  background-color:var( --form-validate-background);
 }
 .error-message {
-  color: red;
+  color: var(--reservation-error-message);
   font-size: 16px;
   display: none;
   margin-bottom: 10px;
@@ -208,7 +188,6 @@
     display: flex;
     justify-content: space-between;
   }
-
   .reservation__content-item,
   .reservation__content-form {
     width: 48%;

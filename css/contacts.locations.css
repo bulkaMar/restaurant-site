@@ -1,0 +1,100 @@
+.contacts-locations {
+  padding: 50px 24px 0px 24px;
+  background-color: var(--contacts-background);
+}
+.contacts-locations__text-container {
+  text-align: center;
+}
+.contacts-locations__title {
+  color: var(--global-title-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 15.73px;
+  letter-spacing: 1.1px;
+}
+.contacts-locations__subtitle {
+  margin-top: 20px;
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 40px;
+}
+.contacts-locations-content-decor-for-text {
+  width: 100px;
+  margin: auto;
+}
+.contacts-locations__secondary-text {
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 26px;
+}
+.contacts-locations-items {
+  padding-top: 30px;
+}
+.contacts-locations-item__title {
+  margin-top: 20px;
+  color: var(--global-subtitle-color);
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 28px;
+}
+.contacts-locations-item {
+  padding-bottom: 30px;
+}
+.contacts-locations-item__underline {
+  width: 30px;
+  height: 3px;
+  background-color: var(--what-to-expect__item-underline);
+  margin-top: 10px;
+}
+.contacts-locations-items-connect {
+  padding-top: 10px;
+}
+.contacts-locations-item-connect {
+  display: flex;
+  padding-bottom: 20px;
+}
+.contacts-locations-connect-text {
+  margin-left: 10px;
+  color: var(--global-secondary-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+@media (min-width: 600px) {
+  .contacts-locations-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .contacts-locations-item {
+    width: 48%;
+  }
+}
+@media (min-width: 850px) {
+  .contacts-locations-items {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+	padding-top: 40px;
+  }
+  .contacts-locations {
+    padding: 50px 32px 0px 32px;
+	width: 100%;
+	background-image: url(../img/contacts-locations/background-contacts-location.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+  }
+}
